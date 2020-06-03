@@ -1,0 +1,30 @@
+.sidebar{
+  width: 80%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  // transform: translateX(-100%);
+  transition: transform 0.4s;
+  background: #c2185b;
+  color: white;
+
+  &--inner{
+    margin: 0;
+    padding: 0;
+  }
+
+  &--inner-item{
+    list-style-type: none;
+    padding: 1rem 1rem;
+    margin: 0;
+
+    &:hover{
+      background: #ad1457;
+      cursor: pointer;
+    }
+  }
+
+  &--inner-item__link{
+    color: white;
+  }
+}
