@@ -23,6 +23,9 @@ export default function App() {
       <div className="pull" onClick={() => handleClick()}>
         <h1>Logo</h1>
       </div>
+      <div className="floatingBtn" onClick={() => handleClick()}>
+        <i className="fas fa-chevron-right fa-lg" />
+      </div>
       {visible ? (
         <Sidebar style={hideNav} links={links} />
       ) : (
