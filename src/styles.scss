@@ -26,3 +26,19 @@ a{
     margin: 0;
   }
 }
+
+.floatingBtn{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  top: 85%;
+  left: 75%;
+  background: #e91e63;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 1000;
+}
